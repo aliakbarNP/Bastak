@@ -1,3 +1,9 @@
-.w-100{
-    width: 100% !important;
+@media(min-width:600px){
+    .top-navbar{
+        box-shadow: 0 0 20px gray !important;
+    }
+    #top-action-section{
+        display: flex !important;
+        align-items: center !important;
+    }
 }
