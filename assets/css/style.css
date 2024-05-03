@@ -7,3 +7,19 @@
         align-items: center !important;
     }
 }
+/* .users_list_item .active .users_list_arrow_icon{
+    transform: rotate(180deg);
+} */
+.users_list_arrow_icon:hover{
+    transform: rotate(180deg);
+}
+.users_list_item.active{
+    background-color: rgb(163, 244, 247);
+}
+.users_list_item.active .collapsible-header{
+    background-color: rgb(235, 217, 217);
+}
+.table.highlight > tbody > tr:hover {
+    background-color: #539cd8;
+  }
+
